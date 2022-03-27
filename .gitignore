@@ -1,0 +1,5 @@
+api/package-lock.json
+api/package.json
+.DS_Store
+api/node_modules/*
+api/.env
