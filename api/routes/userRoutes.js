@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
 
-const { getToken, COOKIE_OPTIONS, getRefreshRToken } = require('../authenticate');
+const { getToken, COOKIE_OPTIONS, getRefreshToken } = require('../authenticate');
 
 router.post('/signup', (req, res, next) => {
   if(!req.body.firstName){
